@@ -16,3 +16,5 @@
     </tr>
     <?php endforeach ?>
 </table>
+
+<?= $this->Html->link('Add Article', ['action' => 'add']) ?>
